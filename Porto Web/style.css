@@ -1,0 +1,285 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.bg-nav{
+    background-color: black;
+    border-style: groove;
+    border: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.9;
+
+    .logo-nav{
+        color: rgb(153,50,204);
+        display: flex;
+        padding-inline-start: 60px;
+
+        span{
+            color: white;
+        }
+
+        .home-nav{
+            display: flex;
+            padding-inline-start: 850px;
+            padding-top: 10px;
+
+            a{
+                color: white;
+                text-decoration: none;
+                font-size: 15px;
+                cursor: pointer;
+
+                :hover{
+                    color: rgb(153,50,204);
+                }
+            }
+
+            .about-nav{
+                display: flex;
+                padding-inline-start: 30px;
+
+                .project-nav{
+                    display: flex;
+                    padding-inline-start: 30px;
+                }
+            }
+        }
+    }
+}
+
+.img-web-1{
+    display: flex;
+    padding-inline-start: 350px;
+    padding-top: 80px;
+
+    .takeline-1{
+        color: white;
+        padding-top: 60px;
+        font-size: 25px;
+            span{
+                color: rgb(153,50,204);
+            }
+
+    }
+}
+
+.keahlian{
+    color: rgb(153,50,204);
+
+    p{
+        font-size: 20px;
+    }
+
+    .btn-call{
+        button{
+            width: 250px;
+            border-style: groove;
+            background-color: black;
+            color: black;
+            cursor: pointer;
+            border-color: rgb(153,50,204);
+            color: white;
+        }
+    }
+}
+
+
+.find-ig{
+    display: flex;
+    padding-inline-start: 550px;
+    padding-top: 15px;
+
+    :hover{
+        color: white;
+    }
+    .find-git{
+        display: flex;
+        padding-inline-start: 50px;
+
+        .find-mail{
+            display: flex;
+            padding-inline-start: 50px;
+
+            .find-wa{
+                display: flex;
+                padding-inline-start: 50px;
+            }
+        }
+    }
+}
+
+.copyright{
+    color: white;
+    padding-top: 20px;
+}
+.titik-tepi{
+    color:black;
+}
+
+.judul-know{
+    color: white;
+    padding-top: 80px;
+
+    span{
+        color: rgb(153,50,204);
+    }
+}
+
+.img-dava{
+    padding-top: 20px;
+
+    img{
+        border: none;
+        border-radius: 50px;
+        box-shadow: 0 0 20px rgb(153,50,204);
+    }
+}
+
+.about-isi{
+    color: white;
+    padding-top:15px ;
+    
+    span{
+        color: rgb(153,50,204);
+    }
+}
+
+.judul-skill{
+    color: white;
+    padding-top: 50px;
+
+    span{
+        color: rgb(153,50,204);
+    }
+}
+
+.skill-me-1{
+    padding-top: 20px;
+    display: flex;
+    padding-inline-start: 260px;
+
+    button{
+        width: 250px;
+        border-style: groove;
+        background-color: black;
+        color: white;
+        cursor: pointer;
+        border-color: rgb(153,50,204);
+    }
+
+    .skill-me-2{
+        display: flex;
+        padding-inline-start: 30px;
+
+        .skill-me-3{
+            display: flex;
+            padding-inline-start: 30px;
+        }
+    }
+}
+
+.tools-me-1{
+    padding-top: 20px;
+    display: flex;
+    padding-inline-start: 130px;
+
+    button{
+        width: 250px;
+        border-style: groove;
+        background-color: black;
+        color: white;
+        cursor: pointer;
+        border-color: rgb(153,50,204);
+    }
+
+    .tools-me-2{
+        display: flex;
+        padding-inline-start: 30px;
+
+        .tools-me-3{
+            display: flex;
+            padding-inline-start: 30px;
+        }
+    }
+}
+
+.judul-my-project{
+    color: white;
+    padding-top: 50px;
+
+    span{
+        color: rgb(153,50,204);
+    }
+}
+
+.img-projek-1{
+    display: flex;
+    padding-inline-start: 100px;
+    padding-top: 30px;
+
+    img{
+        border: none;
+        box-shadow: 0 0 10px rgb(153,50,204);
+    }
+
+    .img-projek-2{
+        display: flex;
+        padding-inline-start: 30px;
+
+        .img-projek-3{
+            display: flex;
+            padding-inline-start: 30px;
+
+            .img-projek-4{
+                display: flex;
+                padding-inline-start: 30px;
+            }
+        }
+    }
+}
+
+.nama-web-1{
+    color: white;
+    display: flex;
+    padding-inline-start: 170px;
+     
+    a{
+        color: white;
+        text-decoration: none;
+        cursor: pointer;
+
+        :hover{
+            color: rgb(153,50,204);
+        }
+    }
+
+    .nama-web-2{
+        display: flex;
+        padding-inline-start: 190px;
+
+        .nama-web-3{
+            display: flex;
+            padding-inline-start: 180px;
+
+            .nama-web-4{
+                display: flex;
+                padding-inline-start: 170px;
+            }
+        }
+    }
+}
+
+.copyright{
+    color: white;
+    cursor: pointer;
+
+    :hover{
+        color: rgb(153,50,204);
+    }
+}
